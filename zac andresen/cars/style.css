@@ -397,21 +397,25 @@ p {
     display: block;
   }
     #flashMe {
-        height:500px;
-        width:500px;
         background:white;
         
-        animation: flash .2s infinite;
+        animation: flash 100s infinite;
     }
     @keyframes flash {
         0% {
-            background:#FF0000;
+            background:#CC5555;
+        }
+        25% {
+            background:#5555FF;
         }
         50% {
-            background:#00FF00;
+            background:#55CC55;
+        }
+        75% {
+            background:#CCCC55;
         }
         100% {
-            background:#0000FF;
+            background:#CC5555
         }
     }
     
